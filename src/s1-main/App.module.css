@@ -1,11 +1,29 @@
 .App {
-    --header_height: 60px;
+  --header_height: 60px;
+  --container_padding: 60px;
+  --message-max-width: 575px;
+  --avatar-size: 48px;
+  --color-primary: #06c;
+  --color-secondary: #f5f7fb;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Montserrat;
 }
 
 .hw {
+  border: 1px solid #d9d9d9;
+  padding: 20px var(--container_padding);
+}
 
+.hw .chat {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .hwTitle {
-
+  padding: 10px var(--container_padding);
 }
