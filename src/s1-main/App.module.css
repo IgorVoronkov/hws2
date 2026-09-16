@@ -7,9 +7,6 @@
   --color-secondary: #f5f7fb;
 
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   font-family: Montserrat;
 }
 
@@ -25,5 +22,8 @@
 }
 
 .hwTitle {
+  margin-top: 20px;
   padding: 10px var(--container_padding);
+  font-size: 22px;
+  font-weight: 600;
 }
