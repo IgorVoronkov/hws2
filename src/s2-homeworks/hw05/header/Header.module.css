@@ -1,8 +1,24 @@
 .burgerMenuIcon {
+  --burger_size: 24px;
+  width: var(--burger_size);
+  height: var(--burger_size);
 }
 
 .header {
+  height: var(--header_height);
+  padding-inline: var(--container_padding);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 25px 60px -10px rgba(0, 0, 0, 0.18);
+}
+
+.header button {
+  border: none;
+  background-color: inherit;
 }
 
 .header h1 {
+  font-size: 24px;
+  font-weight: 600;
 }
